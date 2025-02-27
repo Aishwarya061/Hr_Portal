@@ -7,12 +7,24 @@ This project is a web-based portal that allows HR teams to generate HR-related d
 - *backend/* → Node.js + Express API
 - *database/* → MySQL scripts (hr_letter_portal.sql)
 
-  # Backend-DB
-HR_PORTAL-Backend connection to Database 
+# Backend
+  # 1. Connecting Database to Backend (Node.js + MySQL)
+    Step 1: Install Dependencies
+            Node.js backend project, install mysql2 for database connectivity
+    Step 2: Create a Database Connection
+            Create a db.js file in the backend
+# 2. Backend API Integration
+Step 1: Create an API to Fetch Templates
+        Inside routes/templates.js:
+Step 2: Add API Routes in server.js
 
-# This code is created to connect Database to Backend
-- The Backend code is pushed in the git respository.
-- The code is in node.js language with DB connections.
+ # Frontend
+   Frontend (Next.js) Integration
+   In the Next.js frontend, fetch templates from the backend
+
+# This code is created to connect Database to Backend and Frontend
+- The Backend and frontend code is pushed in the git respository.
+- The code is in node.js and next.js language with DB connections.
 
 # The Database Creation
 - The created Database is named "hr_portal".
