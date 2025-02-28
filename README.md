@@ -90,7 +90,9 @@ timestamp	    | TIMESTAMP DEFAULT CURRENT_TIMESTAMP	  | Time of modification
 
 # To create this Database follow these cammands
 CREATE DATABASE hr_portal;
+
 USE hr_portal;
+
 CREATE TABLE Users (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
